@@ -1,0 +1,36 @@
+.list-container {
+  background-color: #1f1f2f;
+  border: 1px solid #334155;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.btn-visited {
+  background-color: transparent;
+  border: none;
+  color: #f1f5f9;
+  width: 80px;
+  height: 30px;
+  padding: 5px;
+}
+
+.country-name {
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: bold;
+  color: #f8fafc;
+  margin-left: 10px;
+}
+
+.btn-visit {
+  background-color: #3b82f6;
+  padding: 8px;
+  color: white;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+}

@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #161624;
+  padding: 20px;
+  height: 100vh;
+}
+
+.heading {
+  color: #f8fafc;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin: 2px;
+}
+
+.initial-list-container {
+  display: flex;
+  flex-direction: column;
+
+  overflow: auto;
+
+  list-style: none;
+}
+
+.visited-list-container {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  margin: 3px;
+}
+
+.empty-visited-list {
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 28px;
+  color: #f1f5f9;
+}
